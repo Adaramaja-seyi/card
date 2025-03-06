@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(228, 227, 226);
+   
+}
+ h1{
+    text-align: center; 
+}
+.card p{
+    margin-left: 5%;
+}
+h2{
+
+}
+
+.main h2{
+    font-weight: 200;
+    color: rgb(100, 100, 100);
+    margin-left: -55px;
+    text-align: center;
+}
+.main p{
+    text-align: center;
+}
+.card{
+    display: flex;
+    margin-top:-7%;
+
+}
+.box1{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 170px;
+    margin: auto;
+    border-top: 5px solid red;
+    border-radius: 12px;
+    background-color:white;
+}
+.box2{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 170px;
+    margin-left: 34%;
+    border-top: 5px solid rgb(89, 0, 255);
+    border-radius: 12px;
+    background-color:white;
+}
+.box3{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 170px;
+    margin-left: 3%;
+    border-top: 5px solid rgb(159, 216, 218);
+    border-radius: 12px;
+    background-color:white;
+}
+.box4{
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 170px;
+    margin: auto;
+    margin-top: -4%;
+    border-top: 5px solid rgb(255, 174, 0);
+    border-radius: 12px;
+    background-color:white;
+
+}
+.all{
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 70%;
+    margin-top: 5%;
+}
+img{
+    margin-left: 70%;
+    margin-top: 8%;
+}
+h3{
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.we{
+    width: 80%; 
+}
+/* .card{
+    border: 1px solid blueviolet;
+    margin: 5% auto;
+    width: 70%;
+    height: 500px;
+    position: relative;
+}
+.box1{
+    position: absolute;
+    border: 1px solid blueviolet;
+    width: 30%;
+    height: 170px;
+    left: 35%;
+    /* text-align: none; */
+
+/* .box2{
+    position: absolute;
+    border: 1px solid blueviolet;
+    width: 30%;
+    height: 170px;
+    top: 20%;
+    left: 68%;
+    text-align: none;
+}
+.box3{
+    position: absolute;
+    border: 1px solid blueviolet;
+    width: 30%;
+    height: 170px;
+    top: 20%;
+    left: 2%;
+    text-align: none;
+}
+.box4{
+    position: absolute;
+    border: 1px solid blueviolet;
+    width: 30%;
+    height: 170px;
+     top: 50%;
+     left: 35%;
+     text-align: none;
+}
+.we{
+    width: 80%;
+}
+h3{
+    margin-left: 12;
+}
+img{
+    margin-left: 70%;
+    margin-top: 10%;
+} */
+@media screen and (max-width:375px)
+{
+    
+}
