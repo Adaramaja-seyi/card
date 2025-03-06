@@ -1,83 +1,84 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 .main{
-    background-color: rgb(228, 227, 226);
+    /* background-color: rgb(228, 227, 226); */
+   font-family: Poppins;
+  
+}
+h1{
+    font-weight: 20;
+    
+}
+.con{
+    text-align: center;
+    margin-top: 3%;
+     /* border: 1px solid red; */
    
+  
 }
- h1{
-    text-align: center; 
-}
-.card p{
-    margin-left: 5%;
-}
-h2{
-
-}
-
-.main h2{
-    font-weight: 200;
-    color: rgb(100, 100, 100);
-    margin-left: -55px;
-    text-align: center;
-}
-.main p{
-    text-align: center;
+.con p{
+    width: 40%;
+    margin-left: 30% ;
+    margin-top: 5px;
 }
 .card{
     display: flex;
     margin-top:-7%;
-
+   
 }
 .box1{
-    /* border: 1px solid black; */
     width: 30%;
-    height: 170px;
+    height: 210px;
     margin: auto;
     border-top: 5px solid red;
     border-radius: 12px;
     background-color:white;
+    box-shadow: 1px 5px 2px 1px rgba(0,0,0,0.1);
 }
 .box2{
-    /* border: 1px solid black; */
+   
     width: 30%;
-    height: 170px;
+    height: 200px;
     margin-left: 34%;
     border-top: 5px solid rgb(89, 0, 255);
     border-radius: 12px;
     background-color:white;
+    box-shadow: 1px 5px 2px 1px rgba(0,0,0,0.1);
 }
 .box3{
     /* border: 1px solid black; */
     width: 30%;
-    height: 170px;
+    height: 200px;
     margin-left: 3%;
     border-top: 5px solid rgb(159, 216, 218);
     border-radius: 12px;
     background-color:white;
+    box-shadow: 1px 5px 2px 1px rgba(0,0,0,0.1);
 }
 .box4{
-    /* border: 1px solid black; */
     width: 30%;
-    height: 170px;
+    height: 200px;
     margin: auto;
     margin-top: -4%;
     border-top: 5px solid rgb(255, 174, 0);
     border-radius: 12px;
     background-color:white;
+    margin-bottom: 19px;
+    box-shadow: 1px 5px 2px 1px rgba(0,0,0,0.1);
 
 }
 .all{
     margin: auto;
-    /* border: 1px solid black; */
     width: 70%;
     margin-top: 5%;
 }
 img{
     margin-left: 70%;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 h3{
     margin-left: 12px;
@@ -86,60 +87,46 @@ h3{
 }
 .we{
     width: 80%; 
+    font-size: 13px;
+    margin-left: 12px;
+    font-family: Poppins;
 }
-/* .card{
-    border: 1px solid blueviolet;
-    margin: 5% auto;
-    width: 70%;
-    height: 500px;
-    position: relative;
-}
-.box1{
-    position: absolute;
-    border: 1px solid blueviolet;
-    width: 30%;
-    height: 170px;
-    left: 35%;
-    /* text-align: none; */
-
-/* .box2{
-    position: absolute;
-    border: 1px solid blueviolet;
-    width: 30%;
-    height: 170px;
-    top: 20%;
-    left: 68%;
-    text-align: none;
-}
-.box3{
-    position: absolute;
-    border: 1px solid blueviolet;
-    width: 30%;
-    height: 170px;
-    top: 20%;
-    left: 2%;
-    text-align: none;
-}
-.box4{
-    position: absolute;
-    border: 1px solid blueviolet;
-    width: 30%;
-    height: 170px;
-     top: 50%;
-     left: 35%;
-     text-align: none;
-}
-.we{
-    width: 80%;
-}
-h3{
-    margin-left: 12;
-}
-img{
-    margin-left: 70%;
-    margin-top: 10%;
-} */
-@media screen and (max-width:375px)
-{
-    
+@media screen and (max-width: 600px) {
+    .con{
+        /* border: 1px solid red; */
+    }
+    .main{
+        /* border: 1px solid red; */
+    }
+    h1{
+        font-size: 28px;
+    }
+    .con p{
+        width: 100%;
+        margin: auto;
+        
+    }
+    .card{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .box1{
+    width: 100%;
+    }
+    .box2{
+        width: 100%;
+        margin-top: 14%;
+        margin: auto;
+        }
+     .box3{
+         width: 100%;
+         margin-top: 5%;
+         margin: auto;
+         }
+     .box4{
+            width: 100%;
+            margin-top: 5%;
+        }
+        
+        
 }
